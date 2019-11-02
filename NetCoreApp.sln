@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp", "NetCoreApp\NetCoreApp.csproj", "{43A69FAB-FF99-4853-8E72-ED6C3F3CD422}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp.Data", "NetCoreApp.Data\NetCoreApp.Data.csproj", "{F2C8DA45-72F7-4ADE-B10A-DBE7E385C8B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{43A69FAB-FF99-4853-8E72-ED6C3F3CD422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43A69FAB-FF99-4853-8E72-ED6C3F3CD422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43A69FAB-FF99-4853-8E72-ED6C3F3CD422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C8DA45-72F7-4ADE-B10A-DBE7E385C8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C8DA45-72F7-4ADE-B10A-DBE7E385C8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C8DA45-72F7-4ADE-B10A-DBE7E385C8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C8DA45-72F7-4ADE-B10A-DBE7E385C8B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
