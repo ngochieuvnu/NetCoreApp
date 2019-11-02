@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApp", "NetCoreApp\NetCoreApp.csproj", "{43A69FAB-FF99-4853-8E72-ED6C3F3CD422}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApp.Data", "NetCoreApp.Data\NetCoreApp.Data.csproj", "{F2C8DA45-72F7-4ADE-B10A-DBE7E385C8B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp.Infrastructure", "NetCoreApp.Infrastructure\NetCoreApp.Infrastructure.csproj", "{8968B4A7-211D-426A-B3B3-17A4595613D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApp.Infrastructure", "NetCoreApp.Infrastructure\NetCoreApp.Infrastructure.csproj", "{8968B4A7-211D-426A-B3B3-17A4595613D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp.Utilities", "NetCoreApp.Utilities\NetCoreApp.Utilities.csproj", "{F86F600A-BE6B-48ED-B8F6-AB49C0F22F3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApp.Utilities", "NetCoreApp.Utilities\NetCoreApp.Utilities.csproj", "{F86F600A-BE6B-48ED-B8F6-AB49C0F22F3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp.Application", "NetCoreApp.Application\NetCoreApp.Application.csproj", "{8E5326A6-CE89-460D-BAA1-9EB750C8877E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApp.Application", "NetCoreApp.Application\NetCoreApp.Application.csproj", "{8E5326A6-CE89-460D-BAA1-9EB750C8877E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{6F2D7829-FA88-4D2D-B606-F2225A9738EE}"
 EndProject
@@ -21,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{D7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{FE37C7CA-C035-4DFF-BB65-E127FF04C80E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp.Data.EF", "NetCoreApp.Data.EF\NetCoreApp.Data.EF.csproj", "{5EF258AE-69D3-4D8D-8FD1-7EF7CB45118B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApp.Data.EF", "NetCoreApp.Data.EF\NetCoreApp.Data.EF.csproj", "{5EF258AE-69D3-4D8D-8FD1-7EF7CB45118B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp", "WebApplication1\NetCoreApp\NetCoreApp.csproj", "{C5853864-18B3-49AC-88DC-DD8861628FAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{43A69FAB-FF99-4853-8E72-ED6C3F3CD422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43A69FAB-FF99-4853-8E72-ED6C3F3CD422}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43A69FAB-FF99-4853-8E72-ED6C3F3CD422}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43A69FAB-FF99-4853-8E72-ED6C3F3CD422}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F2C8DA45-72F7-4ADE-B10A-DBE7E385C8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F2C8DA45-72F7-4ADE-B10A-DBE7E385C8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C8DA45-72F7-4ADE-B10A-DBE7E385C8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,17 +49,21 @@ Global
 		{5EF258AE-69D3-4D8D-8FD1-7EF7CB45118B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF258AE-69D3-4D8D-8FD1-7EF7CB45118B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF258AE-69D3-4D8D-8FD1-7EF7CB45118B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5853864-18B3-49AC-88DC-DD8861628FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5853864-18B3-49AC-88DC-DD8861628FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5853864-18B3-49AC-88DC-DD8861628FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5853864-18B3-49AC-88DC-DD8861628FAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{43A69FAB-FF99-4853-8E72-ED6C3F3CD422} = {78A77208-5247-4D2C-BF87-D6A03EDEABF4}
 		{F2C8DA45-72F7-4ADE-B10A-DBE7E385C8B0} = {D78D816C-7112-45D8-9820-E00165680557}
 		{8968B4A7-211D-426A-B3B3-17A4595613D0} = {FE37C7CA-C035-4DFF-BB65-E127FF04C80E}
 		{F86F600A-BE6B-48ED-B8F6-AB49C0F22F3C} = {FE37C7CA-C035-4DFF-BB65-E127FF04C80E}
 		{8E5326A6-CE89-460D-BAA1-9EB750C8877E} = {6F2D7829-FA88-4D2D-B606-F2225A9738EE}
 		{5EF258AE-69D3-4D8D-8FD1-7EF7CB45118B} = {D78D816C-7112-45D8-9820-E00165680557}
+		{C5853864-18B3-49AC-88DC-DD8861628FAA} = {78A77208-5247-4D2C-BF87-D6A03EDEABF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36301E3E-4686-478B-967C-F50D2309A774}
