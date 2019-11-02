@@ -5,10 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
     <Folder Include="Enums\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="IRepositories\" />
+    <Folder Include="SharedKernel\" />
   </ItemGroup>
 
 </Project>
